@@ -1,0 +1,40 @@
+Check Switch Module
+-------------------
+
+Uses ENTITY-MIB and CISCO-ENTITY-FRU-CONTROL-MIB.
+Only bash and snmpwalk (or snmpbulkwalk) are required.
+
+*EXAMPLE OUTPUT*
+
+----
+CRITICAL: poweredDown-->'10 Gbps Ethernet XL Module'-->'LinecardSlot-10'-->'Nexus7000 C7010 (10 Slot) Chassis'.
+
+OK: 7 modules are ok.
+----
+
+*MANUAL PAGE*
+
+----
+$ ./check_switch_module -h
+
+check_switch_module - Switch Module checker.
+
+Usage: check_switch_module [-h] [-l] [-c SECRET] <host|IP>
+
+ -h         :  Display this help text.
+ -v         :  Display the version of this script.
+ -l         :  List hardware.
+ -C SECRET  :  Community string.
+
+Check that modules are in OK state.
+
+Examples
+
+List device hardware info:
+    check_switch_module -l -C secret 1.2.3.4
+
+Check modules are in OK state:
+    check_switch_module -C secret 1.2.3.4
+
+----
+
