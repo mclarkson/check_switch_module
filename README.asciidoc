@@ -1,5 +1,5 @@
 ++++
-<img src="http://www.smorg.co.uk/images/check_switch_psu.png"
+<img src="http://www.smorg.co.uk/images/check_switch_module.png"
 alt="Nagios GUI Screenshot" style="float:none" />
 ++++
 
