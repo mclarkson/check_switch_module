@@ -5,15 +5,12 @@
 #    General Public License (GPL), as published at: 
 #    http://www.gnu.org/licenses/gpl.html .
 #
-# File:     check_switch_psu
+# File:     check_switch_module
 # Date:     21 Dec 2012
 # Version:  0.10
-# Changes:  0.11 4-Jan-2012 Mark Clarkson <mark.clarkson@smorg.co.uk>
-#               New option, '-n', to specify number of PSUs to check for.
+# Changes:  
 #
-# Purpose:  Check that both psu units are present. A removed psu will not
-#           be detected by other hardware check scripts since there is no
-#           actual fault.
+# Purpose:  
 #
 # Notes:
 #
