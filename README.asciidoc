@@ -9,6 +9,16 @@ Check Switch Module
 Uses ENTITY-MIB and CISCO-ENTITY-FRU-CONTROL-MIB.
 Only bash and snmpwalk (or snmpbulkwalk) are required.
 
+*INSTALL*
+
+Example:
+
+----
+wget https://raw.github.com/mclarkson/check_switch_module/master/check_switch_module
+chmod +x check_switch_module
+mv check_switch_module /usr/lib64/nagios/plugins/
+----
+
 *EXAMPLE OUTPUT*
 
 ----
